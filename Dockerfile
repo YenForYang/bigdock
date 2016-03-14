@@ -15,7 +15,7 @@ RUN	sudo echo "deb http://archive.ubuntu.com/ubuntu trusty-backports main restri
 	LC_ALL=C.UTF-8 add-apt-repository -y ppa:cz.nic-labs/knot-dns                                                                     && \
 	add-apt-repository -y ppa:george-edison55/cmake-3.x                                                                               && \
 	add-apt-repository -y ppa:cjwatson/launchpad                                                                                      && \
-	add-apt-repository -y ppa:richardpuppy96/ppa                                                                                      && \
+	add-apt-repository -y ppa:richardpuppy96/backports                                                                                      && \
 	add-apt-repository -y ppa:fontforge/fontforge                                                                                     && \
 	sudo apt-get update                                                                                                               && \
 	sudo apt-get upgrade -y                                                                                                           && \

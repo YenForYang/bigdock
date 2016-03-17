@@ -54,14 +54,14 @@ $css
 #   'key_handler' : false 
 # });
 #TEST_IGNORE_BEGIN
-@pdf2htmlEX.min.js
-"""
-<script>
-try{
-  pdf2htmlEX.defaultViewer = new pdf2htmlEX.Viewer({});
-}catch(e){}
-</script>
-"""
+#@pdf2htmlEX.min.js
+#"""
+#<script>
+#try{
+#  pdf2htmlEX.defaultViewer = new pdf2htmlEX.Viewer({});
+#}catch(e){}
+#</script>
+#"""
 #TEST_IGNORE_END
 
 
@@ -81,18 +81,18 @@ try{
 # <div id="sidebar" class="opened">
 
 #TEST_IGNORE_BEGIN
-"""
-<div id="sidebar">
-"""
+#"""
+#<div id="sidebar">
+#"""
 # container of outlines
-"""
-<div id="outline">
-"""
-$outline
-"""
-</div>
-</div>
-"""
+#"""
+#<div id="outline">
+#"""
+#$outline
+#"""
+#</div>
+#</div>
+#"""
 #TEST_IGNORE_END
 
 #############

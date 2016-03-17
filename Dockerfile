@@ -668,7 +668,7 @@ RUN	sudo echo "deb http://archive.ubuntu.com/ubuntu trusty-backports main restri
 #	echo 'export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH' >> /root/.bashrc                                                   && \
 #	source /root/.zshrc                                                                                                              && \
 #	source /root/.bashrc
-ADD manifest /usr/local/share/pdf2htmlEX/
+COPY manifest /usr/local/share/pdf2htmlEX/
 
 VOLUME /pdf
 

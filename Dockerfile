@@ -674,6 +674,6 @@ VOLUME /pdf
 
 WORKDIR /pdf
 
-ENTRYPOINT ["pdf2htmlEX", "--split-pages=1", "--embed=cfijo", "--page-filename=%04d.xhtml", "--hdpi=150", "--vdpi=150"]
+ENTRYPOINT ["pdf2htmlEX", "--split-pages=1", "--embed=cfijo", "--page-filename=%04d.xhtml", "--hdpi=150", "--vdpi=150", "--space-as-offset=1", "--optimize-text=1", "--correct-text-visibility=1"]
 CMD ["--help"]
 #Dockerfile
